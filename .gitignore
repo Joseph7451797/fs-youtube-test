@@ -1,0 +1,16 @@
+# system file
+*.DS_Store
+
+# compiler tool file
+dev-log/*
+npm-debug.log
+##.fontcustom-manifest.json
+	
+# node file	
+node_modules/
+
+# bower_components
+bower_components/
+
+#built file
+build/*

@@ -1,0 +1,22 @@
+{
+  "name": "fs-youtube-test",
+  "description": "full screen youtube test",
+  "version": "1.0.0",
+  "author": "Joseph Chang",
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "hot-dev": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 8080 --inline",
+    "build": "webpack --config webpack.build.config.js -p --progress --profile --colors"
+  },
+  "dependencies": {
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "keywords": [
+    "webpack",
+    "youtube"
+  ]
+}
